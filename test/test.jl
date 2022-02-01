@@ -1,3 +1,6 @@
+using JuMP
+using GLPK
+
 Base.@kwdef mutable struct Batteries
     names::Vector{String} = String[]
     codes::Vector{Int32} = Int32[]
